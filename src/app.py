@@ -1,3 +1,3 @@
+from flask import Flask
 
-def sum(a,b):
-    return a+b
+app = Flask(__name__)
